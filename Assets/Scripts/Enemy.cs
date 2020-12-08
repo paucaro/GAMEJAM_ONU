@@ -14,13 +14,16 @@ public class Enemy : MonoBehaviour
     public bool enemy_1;
     public bool enemy_2;
     public bool enemy_3;
-    public bool myPlayer;
-    public bool attacked;
+
+    [Header("Health")]
     public int life;
     public int damage;
-    [Header("Tipo de Enemigo")]
-    public bool argumentar, ignorar, aliados, gas, golpe, llaves;
     public Slider myHealth;
+
+    [Header("Extras")]
+    public bool myPlayer;
+    public bool attacked;
+
     public void Awake()
     {
         instance = this;

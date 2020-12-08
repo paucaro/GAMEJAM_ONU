@@ -29,6 +29,6 @@ public class Timer : MonoBehaviour
     private IEnumerator Death()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }
