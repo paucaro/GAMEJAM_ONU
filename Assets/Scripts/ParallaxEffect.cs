@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//[ExecuteInEditMode]
+[ExecuteInEditMode]
 
 public class ParallaxEffect : MonoBehaviour
 {
     private float length;
     private float startpos;
     public float EfectoParallax;
+    public Camera personajeCamara;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +21,8 @@ public class ParallaxEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float temp = (Camera.main.transform.position.x * (1 - EfectoParallax));
-        float dist = (Camera.main.transform.position.x * EfectoParallax);
+        float temp = (personajeCamara.transform.position.x * (1 - EfectoParallax));
+        float dist = (personajeCamara.transform.position.x * EfectoParallax);
 
         transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
 

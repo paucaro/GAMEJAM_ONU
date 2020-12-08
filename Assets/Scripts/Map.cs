@@ -18,9 +18,9 @@ public class Map : MonoBehaviour
 
     void Start()
     {
-        start = transform.position;
-        startPos = GameObject.FindGameObjectWithTag("inicioMap").transform.position;
-        finalPos = GameObject.FindGameObjectWithTag("finalMap").transform.position;
+        start = transform.localPosition;
+        startPos = GameObject.FindGameObjectWithTag("inicioMap").transform.localPosition;
+        finalPos = GameObject.FindGameObjectWithTag("finalMap").transform.localPosition;
         diferencia = finalPos - startPos;
     }
 
@@ -31,7 +31,7 @@ public class Map : MonoBehaviour
             timer += Time.deltaTime;
             percent = timer / seconds;
             // Magic logic
-            transform.position = start + diferencia * percent;
+            transform.localPosition = start + diferencia * percent;
         }
     }
 }
