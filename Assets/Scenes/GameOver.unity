@@ -723,7 +723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: vOLVER A INTERLO
+  m_Text: vOLVER A INTENTARLO
 --- !u!222 &1396384042
 CanvasRenderer:
   m_ObjectHideFlags: 0
