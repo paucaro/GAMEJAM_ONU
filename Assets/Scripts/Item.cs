@@ -106,4 +106,9 @@ public class Item : MonoBehaviour
             Win();
         }
     }
+    private IEnumerator Walking()
+    {
+        yield return new WaitForSeconds(1);
+        anim.SetBool("WALK", true);
+    }
 }

@@ -57,16 +57,15 @@ public class Enemy : MonoBehaviour
 
         if(life <= 0)
         {
-            Debug.Log("Im dead");
+            //Debug.Log("Im dead");
             myPlayer = false;
             anim.SetTrigger("death");
-            Item.instance.enemySighted_1 = false;
-            Item.instance.enemySighted_2 = false;
-            Item.instance.enemySighted_3 = false;
+            
         }
     }
     public void DestroyMe()
     {
+        Item.instance.enemySighted_1 = false;
         Destroy(gameObject);
     }
     public void Injured()
@@ -223,5 +222,6 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         GameOver();
+      
     }
 }
