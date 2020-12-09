@@ -345,7 +345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118536833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.678143, y: 0, z: 9.965164}
+  m_LocalPosition: {x: -21.138794, y: 0, z: 9.96343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1103492117}
@@ -1391,7 +1391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603533993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.837639, y: 0, z: 9.965481}
+  m_LocalPosition: {x: -36.980446, y: 0, z: 9.963751}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 940790267}
@@ -2007,7 +2007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894576281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.678143, y: 0, z: 9.964764}
+  m_LocalPosition: {x: -21.138794, y: 0, z: 9.963028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 278227263}
@@ -2104,7 +2104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921418094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.678143, y: 0, z: 9.964998}
+  m_LocalPosition: {x: -21.138794, y: 0, z: 9.963276}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 119492924}
@@ -3348,7 +3348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210039535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -34.83506, y: 0, z: 9.965809}
+  m_LocalPosition: {x: -20.18861, y: 0, z: 9.964075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1527849153}
@@ -4592,7 +4592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057453437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -34.83506, y: 0, z: 9.965626}
+  m_LocalPosition: {x: -20.18861, y: 0, z: 9.963892}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22010777}
@@ -4719,6 +4719,8 @@ MonoBehaviour:
   enemySighted_1: 0
   enemySighted_2: 0
   enemySighted_3: 0
+  SonidoIgnorar: {fileID: 5665027946510118028, guid: ed70dc238735ef04e96e337721b217b4,
+    type: 3}
 --- !u!65 &2077975958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4787,7 +4789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079953937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.837639, y: 0, z: 9.9653225}
+  m_LocalPosition: {x: -36.980446, y: 0, z: 9.963596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 687890113}

@@ -18,6 +18,13 @@ public class Item : MonoBehaviour
     public bool enemySighted_1;
     public bool enemySighted_2;
     public bool enemySighted_3;
+    
+    [Header("Sounds")]
+    public GameObject SonidoIgnorar;
+    public GameObject SonidoBla;
+    public GameObject SonidoSpray;
+    public GameObject SonidoLlaves;
+    public GameObject SonidoGolpe;
 
     public void Awake()
     {
@@ -34,10 +41,12 @@ public class Item : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
+                Instantiate(SonidoIgnorar);
                 anim.SetTrigger("ignorar");
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
+                Instantiate(SonidoBla);
                 anim.SetTrigger("argumentar");
             }
             if (Input.GetKeyDown(KeyCode.D))
@@ -46,14 +55,17 @@ public class Item : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.F))
             {
+                Instantiate(SonidoLlaves);
                 anim.SetTrigger("llaves");
             }
             if (Input.GetKeyDown(KeyCode.G))
             {
+                Instantiate(SonidoSpray);
                 anim.SetTrigger("gasP");
             }
             if (Input.GetKeyDown(KeyCode.H))
             {
+                Instantiate(SonidoGolpe);
                 anim.SetTrigger("golpe");
             }
         }
