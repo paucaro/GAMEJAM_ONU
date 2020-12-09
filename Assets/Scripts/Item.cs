@@ -75,6 +75,7 @@ public class Item : MonoBehaviour
     {
         if (!enemySighted_1 && !enemySighted_2 && !enemySighted_3)
         {
+            anim.SetBool("WALK", true);
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
     }
@@ -87,18 +88,18 @@ public class Item : MonoBehaviour
         if(col.tag == "enemy_1")
         {
             enemySighted_1 = true;
-            anim.SetTrigger("idle");
+            anim.SetBool("WALK", false);
 
         }
         if (col.tag == "enemy_2")
         {
             enemySighted_2 = true;
-            anim.SetTrigger("idle");
+            anim.SetBool("WALK", false);
         }
         if (col.tag == "enemy_3")
         {
             enemySighted_3 = true;
-            anim.SetTrigger("idle");
+            anim.SetBool("WALK", false);
         }
         if (col.tag == "home")
         {

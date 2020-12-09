@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: fbf906be6e898de40be6f60b526102c4
+guid: bda98b445eb88b5498ce680da7da62f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3029589391805225231
-    second: caminar_atras_0
+      213: 63696407734857209
+    second: Ataque_llaves_0
   - first:
-      213: -8385196554972367577
-    second: caminar_atras_1
+      213: 90950028467899338
+    second: Ataque_llaves_1
   - first:
-      213: 6200387956634971490
-    second: caminar_atras_2
+      213: -1995203877560898890
+    second: Ataque_llaves_2
   - first:
-      213: 1179717682428402915
-    second: caminar_atras_3
+      213: -7070259505586061731
+    second: Ataque_llaves_3
   - first:
-      213: -7366463913935931335
-    second: caminar_atras_4
+      213: -5596921178122712712
+    second: Ataque_llaves_4
   - first:
-      213: 8198602350013090530
-    second: caminar_atras_5
-  - first:
-      213: -8648830374311231100
-    second: caminar_atras_6
-  - first:
-      213: -4663517755512137231
-    second: caminar_atras_7
+      213: 1059294240552602268
+    second: Ataque_llaves_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -66,7 +60,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 650
@@ -122,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caminar_atras_0
+      name: Ataque_llaves_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 14
-        width: 119
-        height: 271
+        x: 7
+        y: 10
+        width: 86
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5061b6afb1e543c47b9286b5cc4f21f4
-      internalID: -3029589391805225231
+      spriteID: 506edf565a5095b48aec5fcd82dff26d
+      internalID: 63696407734857209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_1
+      name: Ataque_llaves_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 14
-        width: 120
-        height: 271
+        x: 129
+        y: 10
+        width: 127
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610225767e0e779409e533d525a09498
-      internalID: -8385196554972367577
+      spriteID: e3a9566194aae3c44913688267e922f0
+      internalID: 90950028467899338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_2
+      name: Ataque_llaves_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 14
-        width: 119
-        height: 271
+        x: 288
+        y: 10
+        width: 151
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93729e09829c5b7449825203a9874978
-      internalID: 6200387956634971490
+      spriteID: 449d190981e5dd545896c99bc165d072
+      internalID: -1995203877560898890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_3
+      name: Ataque_llaves_3
       rect:
         serializedVersion: 2
-        x: 461
-        y: 16
-        width: 120
-        height: 269
+        x: 428
+        y: 181
+        width: 15
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a5f0bcc1418e304ba4d92d73445aeb6
-      internalID: 1179717682428402915
+      spriteID: 16d4da9152f71b544ae1d2fe121ba068
+      internalID: -7070259505586061731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_4
+      name: Ataque_llaves_4
       rect:
         serializedVersion: 2
-        x: 609
-        y: 14
-        width: 120
-        height: 271
+        x: 466
+        y: 10
+        width: 126
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f1994e884dccc9409f5a80729d01696
-      internalID: -7366463913935931335
+      spriteID: 85897f770779c3c4886f07cd3f56f37a
+      internalID: -5596921178122712712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_5
+      name: Ataque_llaves_5
       rect:
         serializedVersion: 2
-        x: 757
-        y: 14
-        width: 119
-        height: 271
+        x: 644
+        y: 10
+        width: 86
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,50 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6343389647ab7c498cff9e32b9b1d19
-      internalID: 8198602350013090530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_atras_6
-      rect:
-        serializedVersion: 2
-        x: 904
-        y: 14
-        width: 120
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 755fcd5e3fda5e54fbc68512f0f9351d
-      internalID: -8648830374311231100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_atras_7
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 16
-        width: 119
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bdeac87ee8b8c247aafe8c4a6a63d75
-      internalID: -4663517755512137231
+      spriteID: 2801febf97b59114588784d5aa2f5431
+      internalID: 1059294240552602268
       vertices: []
       indices: 
       edges: []

@@ -8,14 +8,27 @@ public class Timer : MonoBehaviour
 {
     public Text time;
     public float remainingTime;
+    public bool RunTimer;
+    public static Timer instance;
 
+    public void Awake()
+    {
+        instance = this;
+    }
+    public void Start()
+    {
+        RunTimer = false;
+    }
     public void Update()
     {
-        remainingTime -= Time.deltaTime;
-        float minutes = Mathf.FloorToInt(remainingTime / 60);
-        float seconds = Mathf.FloorToInt(remainingTime % 60);
-        time.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        End();
+        if (RunTimer)
+        {
+            remainingTime -= Time.deltaTime;
+            float minutes = Mathf.FloorToInt(remainingTime / 60);
+            float seconds = Mathf.FloorToInt(remainingTime % 60);
+            time.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            End();
+        }
     }
     public void End()
     {

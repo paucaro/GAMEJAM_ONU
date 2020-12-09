@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
         if (attacked == false)
         {
             Injured();
-            Debug.Log(life);
+            //Debug.Log(life);
         }
 
         if(life <= 0)
@@ -114,13 +114,13 @@ public class Enemy : MonoBehaviour
         {
             if (enemy_1)
             {
-                Debug.Log("GameOver");
+                //Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0;
             }
             if (enemy_2)
             {
-                Debug.Log("GameOver");
+                ///Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0;
             }
@@ -137,7 +137,7 @@ public class Enemy : MonoBehaviour
         {
             if (enemy_1)
             {
-                Debug.Log("GameOver");
+                //Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0;
             }
@@ -158,7 +158,7 @@ public class Enemy : MonoBehaviour
         {
             if (enemy_1)
             {
-                Debug.Log("GameOver");
+                //Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0;
             }
@@ -179,13 +179,13 @@ public class Enemy : MonoBehaviour
         {
             if (enemy_1)
             {
-                Debug.Log("GameOver");
+                //Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0;
             }
             if (enemy_2)
             {
-                Debug.Log("GameOver");
+                //Debug.Log("GameOver");
                 StartCoroutine(Death());
                 damage = 0; 
             }

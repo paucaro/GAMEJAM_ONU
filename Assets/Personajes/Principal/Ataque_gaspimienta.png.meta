@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: fbf906be6e898de40be6f60b526102c4
+guid: 24648962f0a8d03409a1af00632a65c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3029589391805225231
-    second: caminar_atras_0
+      213: 4228545032070786806
+    second: Ataque_gaspimienta_0
   - first:
-      213: -8385196554972367577
-    second: caminar_atras_1
+      213: -2863688391896788253
+    second: Ataque_gaspimienta_1
   - first:
-      213: 6200387956634971490
-    second: caminar_atras_2
+      213: -8594952827039883993
+    second: Ataque_gaspimienta_2
   - first:
-      213: 1179717682428402915
-    second: caminar_atras_3
+      213: 7351121114887079567
+    second: Ataque_gaspimienta_3
   - first:
-      213: -7366463913935931335
-    second: caminar_atras_4
-  - first:
-      213: 8198602350013090530
-    second: caminar_atras_5
-  - first:
-      213: -8648830374311231100
-    second: caminar_atras_6
-  - first:
-      213: -4663517755512137231
-    second: caminar_atras_7
+      213: -6018550728164930418
+    second: Ataque_gaspimienta_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caminar_atras_0
+      name: Ataque_gaspimienta_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 14
-        width: 119
-        height: 271
+        x: 8
+        y: 9
+        width: 86
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5061b6afb1e543c47b9286b5cc4f21f4
-      internalID: -3029589391805225231
+      spriteID: c4fc168a8c794e843b1c837393cefdf8
+      internalID: 4228545032070786806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_1
+      name: Ataque_gaspimienta_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 14
-        width: 120
-        height: 271
+        x: 135
+        y: 9
+        width: 131
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610225767e0e779409e533d525a09498
-      internalID: -8385196554972367577
+      spriteID: 9cabfcb8bba88d44aa58491bf11320f7
+      internalID: -2863688391896788253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_2
+      name: Ataque_gaspimienta_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 14
-        width: 119
-        height: 271
+        x: 298
+        y: 8
+        width: 182
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93729e09829c5b7449825203a9874978
-      internalID: 6200387956634971490
+      spriteID: 7a59da4e6e8a9594bb70366f81d55b11
+      internalID: -8594952827039883993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_3
+      name: Ataque_gaspimienta_3
       rect:
         serializedVersion: 2
-        x: 461
-        y: 16
-        width: 120
-        height: 269
+        x: 502
+        y: 9
+        width: 130
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a5f0bcc1418e304ba4d92d73445aeb6
-      internalID: 1179717682428402915
+      spriteID: efd7fb08104c06b46a5e0b8a8c1f3886
+      internalID: 7351121114887079567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_atras_4
+      name: Ataque_gaspimienta_4
       rect:
         serializedVersion: 2
-        x: 609
-        y: 14
-        width: 120
-        height: 271
+        x: 664
+        y: 9
+        width: 86
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,71 +211,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f1994e884dccc9409f5a80729d01696
-      internalID: -7366463913935931335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_atras_5
-      rect:
-        serializedVersion: 2
-        x: 757
-        y: 14
-        width: 119
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6343389647ab7c498cff9e32b9b1d19
-      internalID: 8198602350013090530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_atras_6
-      rect:
-        serializedVersion: 2
-        x: 904
-        y: 14
-        width: 120
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 755fcd5e3fda5e54fbc68512f0f9351d
-      internalID: -8648830374311231100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_atras_7
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 16
-        width: 119
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bdeac87ee8b8c247aafe8c4a6a63d75
-      internalID: -4663517755512137231
+      spriteID: 15493a4757138484393e27ec22272cf4
+      internalID: -6018550728164930418
       vertices: []
       indices: 
       edges: []

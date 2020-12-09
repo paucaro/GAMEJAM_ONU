@@ -43,7 +43,7 @@ public class Map : MonoBehaviour
         Vector3 actualPlayerPosition = GameObject.FindGameObjectWithTag("Player").transform.localPosition;
         percent = (home.x - actualPlayerPosition.x) / (home.x - player.x);
         percent = 1 - percent;
-        Debug.Log("percent" + percent);
+        //Debug.Log("percent" + percent);
 
         transform.localPosition = start + diferencia * percent;
     }
