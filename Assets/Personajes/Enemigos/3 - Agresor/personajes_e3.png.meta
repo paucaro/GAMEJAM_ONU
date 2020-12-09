@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 170ace7fe0fd0bc45be58e5e0bac6828
+guid: f776fccd0db660c4aa3d4f0af88dc191
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6287119952903036892
-    second: caminar_perfil_0
+      213: 127138553330260762
+    second: personajes_e3_0
   - first:
-      213: 7014618606874830883
-    second: caminar_perfil_1
+      213: 2806391865230105575
+    second: personajes_e3_1
   - first:
-      213: 4457689258802203693
-    second: caminar_perfil_2
+      213: 5879371306125813334
+    second: personajes_e3_2
   - first:
-      213: 3840320891812801066
-    second: caminar_perfil_3
-  - first:
-      213: -1716213336999375960
-    second: caminar_perfil_4
-  - first:
-      213: 449118468530528721
-    second: caminar_perfil_5
-  - first:
-      213: -1887323632592065996
-    second: caminar_perfil_6
-  - first:
-      213: -1081134003777665931
-    second: caminar_perfil_7
+      213: 1577557762458930
+    second: personajes_e3_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -69,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 650
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,169 +98,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caminar_perfil_0
+      name: personajes_e3_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 12
-        width: 131
-        height: 257
+        x: 17
+        y: 8
+        width: 127
+        height: 262
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c09df6710aeb73448855eea5d6de5f36
-      internalID: -6287119952903036892
+      spriteID: c346988de145ca24f97a18cd0d66e4e4
+      internalID: 127138553330260762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_perfil_1
+      name: personajes_e3_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 16
-        width: 108
-        height: 254
+        x: 152
+        y: 9
+        width: 130
+        height: 260
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16dc7c34eb7d6f74c98ef4c01ffa75fa
-      internalID: 7014618606874830883
+      spriteID: 0d2af9c1756e73842a70805d287a9200
+      internalID: 2806391865230105575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_perfil_2
+      name: personajes_e3_2
       rect:
         serializedVersion: 2
-        x: 313
-        y: 13
-        width: 88
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 198cea1946913a1499af0951c0a32304
-      internalID: 4457689258802203693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_perfil_3
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 11
-        width: 99
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c82b2c7648c2d47408be7d2731f22688
-      internalID: 3840320891812801066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_perfil_4
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 13
-        width: 134
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4d771a8fa5161429d1f61bf66a0abc
-      internalID: -1716213336999375960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_perfil_5
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 12
-        width: 98
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6391ee10171c7274d9e5092e4237271e
-      internalID: 449118468530528721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminar_perfil_6
-      rect:
-        serializedVersion: 2
-        x: 838
+        x: 289
         y: 10
-        width: 88
-        height: 259
+        width: 131
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83479e409a8813c478c709bad59ca1d7
-      internalID: -1887323632592065996
+      spriteID: b752b61e64171b848827aad76ee6d877
+      internalID: 5879371306125813334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caminar_perfil_7
+      name: personajes_e3_3
       rect:
         serializedVersion: 2
-        x: 971
-        y: 11
-        width: 107
-        height: 258
+        x: 442
+        y: 17
+        width: 237
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f811d29b7b18fd4196fd8b80b0a1964
-      internalID: -1081134003777665931
+      spriteID: 923290a5992f41c479c663cc550d4e58
+      internalID: 1577557762458930
       vertices: []
       indices: 
       edges: []
